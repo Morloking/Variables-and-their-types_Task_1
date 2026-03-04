@@ -1,5 +1,7 @@
-#include <iostream>
 #include <cstdlib>
+
+#include <iostream>
+
 using std::cout;
 using std::cin;
 
@@ -12,3 +14,4 @@ int main()
     cout << "Вы ввели:\n";
     cout << x << "\n";
 }
+
