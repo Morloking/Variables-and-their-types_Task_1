@@ -10,5 +10,5 @@ int main()
     int x{ 0 };
     cin >> x;
     cout << "Вы ввели:\n";
-    cout << x;
+    cout << x << "\n";
 }
