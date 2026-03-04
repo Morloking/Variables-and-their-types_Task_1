@@ -6,9 +6,9 @@ using std::cin;
 int main()
 {
     system("chcp 1251 > nul");
-    cout << "Ââåäèòå ÷èñëî:\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:\n";
     int x{ 0 };
     cin >> x;
-    cout << "Âû ââåëè:\n";
+    cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸:\n";
     cout << x;
 }
