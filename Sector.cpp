@@ -5,8 +5,7 @@
 using std::cout;
 using std::cin;
 
-int main()
-{
+int main() {
     system("chcp 1251 > nul");
     cout << "Введите число:\n";
     int x{ 0 };
@@ -14,4 +13,3 @@ int main()
     cout << "Вы ввели:\n";
     cout << x << "\n";
 }
-
