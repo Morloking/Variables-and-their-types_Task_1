@@ -1,14 +1,12 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
-
 int main() {
     setlocale(LC_ALL, "RUSSIAN");
-    cout << "Введите число:\n";
+    std::cout << "Введите число:\n";
     int x{ 0 };
-    cin >> x;
-    cout << "Вы ввели:\n";
-    cout << x << "\n";
+    std::cin >> x;
+    std::cout << "Вы ввели:\n";
+    std::cout << x << "\n";
 }
+
 
